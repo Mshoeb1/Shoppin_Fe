@@ -1,0 +1,27 @@
+.case-selection {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.case-option {
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin-right: 20px;
+}
+
+.case-option:hover {
+  transform: scale(1.1);
+}
+
+.case-option.selected {
+  border: 3px solid #0071e3;
+  border-radius: 10px;
+}
+.image {
+  height: 150px;
+  width: 150px;
+}

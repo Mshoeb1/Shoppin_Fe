@@ -1,0 +1,12 @@
+.size-selection button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f0f0f5;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.size-selection button.active {
+  background-color: #0071e3;
+  color: white;
+}
